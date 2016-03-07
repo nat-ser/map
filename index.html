@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="demo.css">
+    <!-- allows browser support for web components -->
+    <script src="/bower_components/platform/platform.js"></script>
+    <link rel="import" href="/bower_components/polymer/polymer.html">
+    <link rel="import" href="/cool-map.html">
+    <!-- <script language="javascript" src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="bower_components/strand/dist/strand.html"/> -->
+  </head>
+  <body>
+
+    <polymer-element name="cool-map">
+      <template>
+        <h1>This works??</h1>
+      </template>
+
+      <script>
+        Polymer({
+          is:'cool-map'
+        });
+      </script>
+    </polymer-element>
+
+    <!-- <mm-button id="coolBtn">
+        <label>Hi There</label>
+    </mm-button>
+    <script>
+      window.addEventListener("WebComponentsReady", function() {
+      // Your web components are ready!
+      // Do whatever you need to do here.
+      var coolBtn = document.querySelector("#coolBtn");
+
+        coolBtn.addEventListener("click", function(e) {
+            console.log("coolBtn clicked!");
+          });
+      });
+    </script> -->
+  <cool-map></cool-map>
+  <!-- <mm-button></mm-button> -->
+  </body>
+</html>

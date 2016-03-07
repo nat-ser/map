@@ -1,0 +1,25 @@
+{
+  "name": "x-tag-mixin-input",
+  "description": "",
+  "version": "0.1.3",
+  "keywords": [
+    "web-components",
+    "x-tag"
+  ],
+  "main": [
+    "src/main.js"
+  ],
+  "dependencies": {
+    "x-tag-core": "*"
+  },
+  "homepage": "https://github.com/x-tag/mixin-input",
+  "_release": "0.1.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.3",
+    "commit": "8bed1d3135c9f497d57a8ad25c6f18c2bc915c1e"
+  },
+  "_source": "git://github.com/x-tag/mixin-input.git",
+  "_target": "*",
+  "_originalSource": "x-tag-mixin-input"
+}

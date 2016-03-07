@@ -1,0 +1,27 @@
+{
+  "name": "Flipbox",
+  "description": "Flips between two content elements with a CSS Animation, similar to flipping a playing card.",
+  "version": "0.2.9",
+  "keywords": [
+    "web-components",
+    "element",
+    "x-tag"
+  ],
+  "main": [
+    "src/flipbox.js",
+    "src/flipbox.css"
+  ],
+  "dependencies": {
+    "x-tag-core": "*"
+  },
+  "homepage": "https://github.com/x-tag/flipbox",
+  "_release": "0.2.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.9",
+    "commit": "4a5e8cd8ea1ec9ae5b7a748aaa8b75b8a879d3ec"
+  },
+  "_source": "git://github.com/x-tag/flipbox.git",
+  "_target": "~0.2.8",
+  "_originalSource": "x-tag-flipbox"
+}
